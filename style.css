@@ -1,0 +1,194 @@
+.uber-header {
+    background: #000;
+    color: #fff;
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.uber-logo {
+    font-size: 30px;
+    font-weight:normal;
+    margin-right: 28px;
+    font-style:normal;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.main-nav a:last-child {
+    margin-right: 0;
+}
+.main-nav a:hover {
+    color: #1faadb;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.header-link:hover {
+    color: #1faadb;
+}
+.signup-btn {
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 22px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+.signup-btn:hover {
+    background: #1faadb;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+}
+.header {
+    background: #181818;
+    color: white;
+    padding: 12px 0;
+    text-align: right;
+    font-size: 1rem;
+}
+.top-right-links a {
+    color:white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.top-right-links a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 550px;
+}
+.login-card {
+    background: white;
+    border-radius: 0px;
+    padding: 40px 28px;
+    box-shadow: 0 2px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200%;
+}
+.hero-graphics img {
+    width: 180px; 
+    height: 180px;     
+    height: auto;     
+    display: block;
+    margin: 0 auto;
+}
+.account-select {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.account-btn {
+    background:white;
+    border: 2px solid black;
+    border-radius: 18px;
+    padding: 28px 48px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 16px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 1px 4px black;
+    user-select: none;
+}
+.account-btn:hover {
+    background:white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.footer {
+    background: black;
+    color: white;
+    padding: 48px 0 24px 0;
+    font-size: 0.9rem;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1 0 180px;
+    padding: 0 20px 40px 20px;
+}
+.footer-section h3 {
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: white;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-section ul li {
+    margin: 10px 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 800px) {
+    .container,
+    .login-card,
+    .footer-container {
+        max-width: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+    .account-select {
+        flex-direction: column;
+    }
+    .account-btn {
+        margin: 10px 0;
+        font-size: 1rem;
+        padding: 20px 24px;
+    }
+    .footer-section {
+        flex: 1 0 100%;
+        padding: 0 0 24px 0;
+    }
+    .top-right-links {
+        text-align: center;
+    }
+}
